@@ -59,11 +59,11 @@ Folder contain code for ingesting data - very first step
 
 ### Notebook:
 - **scratchpad.ipynb:**
-Contains the notebook to analyze and visualize the data
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/smomtaz/us_road_construction/main?urlpath=%2Fdoc%2Ftree%2Fnotebook%2Fscratchpad.ipynb)
+Contains the notebook to analyze and visualize the data.
+    - Use this link to run the notebook online [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/smomtaz/us_road_construction/main?urlpath=%2Fdoc%2Ftree%2Fnotebook%2Fscratchpad.ipynb)
 - **map.ipynb:**
 Contains the interactive map tools to visualize Bay Area CA Route specific constructions with market segmentations
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/smomtaz/us_road_construction/main?urlpath=voila/render/notebook%2Fmap.ipynb)
+    - Use this link to run the interactive map online [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/smomtaz/us_road_construction/main?urlpath=voila/render/notebook%2Fmap.ipynb)
 
 ### Presentation:
 Contain slide deck (darft) for showcasing the outcome
