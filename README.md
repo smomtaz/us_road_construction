@@ -58,8 +58,12 @@ _Karimi Monsefi, Amin, Sobhan Moosavi, and Rajiv Ramnath. “Will there be a con
 Folder contain code for ingesting data - very first step
 
 ### Notebook:
+- **scratchpad.ipynb:**
 Contains the notebook to analyze and visualize the data
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/smomtaz/us_road_construction/main?urlpath=%2Fdoc%2Ftree%2Fnotebook%2Fscratchpad.ipynb)
+- **map.ipynb:**
+Contains the interactive map tools to visualize Bay Area CA Route specific constructions with market segmentations
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/smomtaz/us_road_construction/main?urlpath=voila/render/notebook%2Fmap.ipynb)
 
 ### Presentation:
 Contain slide deck (darft) for showcasing the outcome
