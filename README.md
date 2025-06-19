@@ -10,42 +10,48 @@ This is a countrywide dataset of road construction and closure events, which cov
 _Karimi Monsefi, Amin, Sobhan Moosavi, and Rajiv Ramnath. “Will there be a construction? Predicting road constructions based on heterogeneous spatiotemporal data.”, In Proceedings of the 30th ACM SIGSPATIAL 2022._
 
 #### Approach to Construction Impact Analysis
-Autonomous Vehicle Deployment Strategy & Risk Assessment
-Goal 1: A comprehensive analysis of US road construction for AV deployment strategy
-Goal 2: A risk assessment comparison among specific routes in Bay Area CA
-Goal 3: A predictive model development to estimate construction duration proactively
-Goal 1: A comprehensive analysis of US road construction for AV deployment strategy
-Targets:
-Ingest Data
-Get data from Kaggle
-Prepare parquet data
-Intial Explanatory Data Analytics
-Stats
-Maps showing constructions
-Feature Extractions
-Top construction activity by cities
-Time series trends by cities
-Compare among cities
-Goal 2: A risk assessment comparison among specific routes in Bay Area CA
-Targets:
-Matching/tagging construction activity using spatial query
-Mapping the construction for interactive data explore by year, severity and other KPIs
-Generating a risk score
-Idea for extra miles to go
-Goal 3: A predictive model development to estimate construction duration proactively
-Targets:
-Explore corelation between duration and other variables
-Predict simple models
-Any advance models
-Idea for extra miles to go
-Data Processing Approach
-Ingest Kaggle data using API
-Store data in parquet format
-Get the additional data
-Census population, employment
-National Road network for frieghts: to get the road density of cities - generating city size to normalize
-Extract features from additional files
+##### Autonomous Vehicle Deployment Strategy & Risk Assessment
+- **Goal 1:** A comprehensive analysis of US road construction for AV deployment strategy
+- **Goal 2:** A risk assessment comparison among specific routes in Bay Area CA 
+- **Goal 3:** A predictive model development to estimate construction duration proactively
 
+#### Goal 1: __A comprehensive analysis of US road construction for AV deployment strategy__
+
+##### Targets:
+- Ingest Data
+    - Get data from Kaggle
+    - Prepare parquet data
+- Intial Explanatory Data Analytics
+    - Stats
+    - Maps showing constructions
+- Feature Extractions
+- Top construction activity by cities
+- Time series trends by cities
+- Compare among cities
+
+#### Goal 2: __A risk assessment comparison among specific routes in Bay Area CA__
+
+##### Targets:
+- Matching/tagging construction activity using spatial query
+- Mapping the construction for interactive data explore by year, severity and other KPIs
+- Generating a risk score
+- Idea for extra miles to go
+
+#### Goal 3: __A predictive model development to estimate construction duration proactively__
+
+##### Targets:
+- Explore corelation between duration and other variables
+- Predict simple models
+- Any advance models
+- Idea for extra miles to go
+- 
+#### Data Processing Approach
+- Ingest Kaggle data using API
+- Store data in parquet format
+- Get the additional data
+    - Census population, employment
+    - National Road network for frieghts: to get the road density of cities - generating city size to normalize
+- Extract features from additional files
 
 ## File Structure
 ### src:
