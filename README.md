@@ -59,6 +59,7 @@ Folder contain code for ingesting data - very first step
 
 ### Notebook:
 Contains the notebook to analyze and visualize the data
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/smomtaz/us_road_construction/main?urlpath=%2Fdoc%2Ftree%2Fnotebook%2Fscratchpad.ipynb)
 
 ### Presentation:
 Contain slide deck (darft) for showcasing the outcome
