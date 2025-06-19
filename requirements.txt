@@ -5,20 +5,26 @@ matplotlib
 seaborn
 scikit-learn
 scipy
+jupyterlab
+chardet
 
 # Geospatial processing
 geopandas
 shapely
 pyarrow
+fastparquet
 fiona
 pyproj
 rtree
+osmnx
 
 # Leaflet map visualization
 ipyleaflet
 
 # Google Drive or API calls
 requests
+gdown
+
 
 # Jupyter/Notebook UI
 ipywidgets
