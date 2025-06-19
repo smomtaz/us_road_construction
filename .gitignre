@@ -1,0 +1,5 @@
+# Ignore uploading folders and file
+data/*
+*.log
+**/__pycache__/
+venv/
