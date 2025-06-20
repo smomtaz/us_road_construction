@@ -1,6 +1,6 @@
 # us_road_construction
 
-The repository is exercise of a hypothetical scenarios and analytics,
+The repository is exercise of a hypothetical scenarios and analytics for autonomous vehicle delopyment risk and strategy due to road construction.
 
 ## About Dataset
 ### Description
